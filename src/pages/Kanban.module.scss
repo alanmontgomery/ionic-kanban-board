@@ -1,0 +1,208 @@
+.categorySlide {
+
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .categorySlide {
+
+        width: 33%;
+    }
+
+    .categoryName {
+
+        margin-top: 1rem;
+        width: 92.6% !important;
+    }
+}
+
+.categoryName {
+
+    background-color: #3273ec;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin-bottom: -0.75rem;
+}
+
+.categoryNameList {
+
+    background-color: #3273ec;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.kanbanItemList {
+
+    margin: 0rem !important;
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(221, 221, 221) !important;
+}
+
+.kanbanItem,
+.kanbanItemList {
+
+    padding: 1.5rem;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    background-color: white;
+    --background: white;
+
+    .itemTitle {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        .itemType {
+
+            font-size: 0.75rem;
+
+            ion-icon {
+
+                font-size: 0.75rem;
+                padding: 0 !important;
+            }
+        }
+        
+        h3 {
+
+            color: black;
+            font-weight: 450;
+        }
+    }
+
+    .itemTitleList {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        margin-bottom: 0rem;
+        
+        ion-card-subtitle {
+
+            color: black;
+            margin-top: 0.25rem;
+            font-size: 0.6rem;
+        }
+    }
+
+    .itemList {
+
+        display: flex !important;
+        flex-direction: row !important;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+
+        ion-icon {
+
+            font-size: 2rem;
+            padding-left: 0.5rem;
+        }
+    }
+
+    .itemType,
+    .itemTypeList {
+
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+        width: fit-content;
+    }
+
+    .itemTypeList {
+
+        margin-right: 0.3rem;
+    }
+
+    .itemLabels {
+
+        margin-top: 1rem;
+    }
+
+    .itemLabelsList {
+
+        margin-top: 0.2rem;
+
+        ion-badge {
+
+            font-size: 0.5rem;
+        }
+    }
+
+    .itemActions {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-top: 1rem;
+
+        div {
+            
+            width: 5rem;
+            background-color: rgb(238, 238, 238);
+            color: rgb(204, 204, 204);
+            margin-left: 0.2rem;
+            margin-right: 0.2rem;
+
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+
+        .moveRight {
+
+            text-align: right;
+        }
+
+        .moveLeft {
+
+            text-align: left;
+        }
+    }
+}
+
+.itemAdd {
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 91.6% !important;
+    background-color: rgb(241, 241, 241);
+    color: rgb(179, 179, 179);
+    border: 2px dashed rgb(216, 216, 216);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.kanbanItem {
+
+    margin: 0 !important;
+    margin-top: 1rem !important;
+    --padding: 0 !important;
+}
+
+.listReorder {
+
+    padding: 0 !important;
+}
